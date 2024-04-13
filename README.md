@@ -5,6 +5,7 @@ The purpose of this script is to compile and run redis in a virtual host.
 ## note
 Not all webhosts can compile redis.
 It has been tested and runs on the following webhosting
+
 |Hosting|Panel Type|Result|Url|
 |-|-|-|
 |Namecrane(Buyvm)|Cpanel|pass|https://namecrane.com/|

@@ -2,17 +2,19 @@
 Most webhosting do not provide redis.
 The purpose of this script is to compile and run redis in a virtual host.
 
+[![Support Ukraine Badge](https://bit.ly/support-ukraine-now)](https://github.com/support-ukraine/support-ukraine)
+
 ## Note
 Not all webhosts can compile redis.
 
 It has been tested and runs on the following webhosting
 
-|Hosting|Panel Type|Result|Url|
-|-|-|-|-|
-|Namecrane(Buyvm)|Cpanel|pass|https://namecrane.com/|
-|Myw|DirectAdmin|pass|https://myw.pt/|
-|Xrea|Self developed|pass|https://www.xrea.com/|
-
+|Hosting|Panel Type|Redis Version|Result|Url|
+|-|-|-|-|-|
+|Namecrane(Buyvm)|Cpanel|7.2.0|pass|https://namecrane.com/|
+|Myw|DirectAdmin|7.2.0|pass|https://myw.pt/|
+|Xrea|Self developed|7.2.4|pass|https://www.xrea.com/|
+|JustHost|DirectAdmin|7.2.4|pass|https://justhost.ru|
 Running redis this way may violate webhosting's tos!
 
 # Usage

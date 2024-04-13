@@ -15,6 +15,7 @@ It has been tested and runs on the following webhosting
 |Myw|DirectAdmin|7.2.0|pass|https://myw.pt/|
 |Xrea|Self developed|7.2.4|pass|https://www.xrea.com/|
 |JustHost|DirectAdmin|7.2.4|pass|https://justhost.ru|
+
 Running redis this way may violate webhosting's tos!
 
 # Usage

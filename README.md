@@ -46,7 +46,7 @@ Open redis.conf and make the following changes to it
  - Find `dir` and change its path to `/home/user1/redis`.
  -find `pidfile` and change it to `/home/user1/redis/redis.pid`
 
-## Run reids
+## Run redis
 
 Add the command `bash /home/user1/redis/redis.sh` to the crontab and set it to run every minute.
 

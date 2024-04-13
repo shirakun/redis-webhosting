@@ -1,8 +1,8 @@
 #!/bin/bash
 
-install_dir="/home/ltg123dd/tmp"
-bin_dir="${install_dir}/redis"
+install_dir="/home/user1"
 redis_version="7.2.4"
+bin_dir="${install_dir}/redis"
 lock_file="${install_dir}/redis_install.lock"
 
 if [ ! -d "${install_dir}" ]; then

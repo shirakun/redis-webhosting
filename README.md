@@ -1,6 +1,6 @@
 # About
 Most webhosting do not provide redis.
-The purpose of this script is to compile and run redis in a virtual host.
+The purpose of this script is to compile and run redis in webhosting.
 
 [![Support Ukraine Badge](https://bit.ly/support-ukraine-now)](https://github.com/support-ukraine/support-ukraine)
 

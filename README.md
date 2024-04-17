@@ -23,7 +23,7 @@ Running redis this way may violate webhosting's tos!
 When building, it will take up some disk space.
 When using this script, please make sure that your webhosting has more than 500M (this data is from redis 7.2.0,new version may require more) of free space.
 
-Let's say that your web hosting path is `/home/user1`
+Let's say that your webhosting path is `/home/user1`
 
 ## Download and edit script
 
@@ -52,11 +52,11 @@ Then delete crontab.
 
 Open redis.conf and make the following changes to it
 
- - Find `bind`, and change it(The address should be one of 127.0.0.0/8 and avoid 127.0.0.1)
- - Find `port` and change it to any other high level port, e.g. `11451`.
+ - Find `bind`, and change it(The address should be one in 127.0.0.0/8 and avoid 127.0.0.1)
+ - Find `port` and change it to any other high port, e.g. `11451`.
  - Find `protected-mode` and change it to `no` (you don't need to change it if you set auth, but we don't set auth in this article for convenience).
  - Find `dir` and change its path to `/home/user1/redis`.
- -find `pidfile` and change it to `/home/user1/redis/redis.pid`
+ - find `pidfile` and change it to `/home/user1/redis/redis.pid`
 
 ## Run redis
 
